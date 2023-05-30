@@ -1,0 +1,22 @@
+#grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#grid *{
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+.box{
+    border: solid;
+    width: 30px;
+    height: 30px;
+}
