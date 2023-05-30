@@ -13,3 +13,23 @@ rows.forEach( (x)=>{
         x.appendChild(box)
     }
 } )
+/**
+ * 
+ * @param {Node} div 
+ */
+function hovering(div){
+    console.log('hover')
+    div.style.backgroundColor = 'blue'
+}
+
+function off(div){
+    console.log('off')
+    div.style.backgroundColor = 'white'
+}
+
+const boxes = document.querySelectorAll('.box')
+
+boxes.forEach( (x)=>{
+    x.addEventListener('mouseover', () => hovering(x))
+    x.addEventListener('mouseleave', () => off(x))
+})
