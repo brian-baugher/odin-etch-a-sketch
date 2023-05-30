@@ -31,5 +31,5 @@ const boxes = document.querySelectorAll('.box')
 
 boxes.forEach( (x)=>{
     x.addEventListener('mouseover', () => hovering(x))
-    x.addEventListener('mouseleave', () => off(x))
+    //x.addEventListener('mouseleave', () => off(x))
 })
