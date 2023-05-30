@@ -2,6 +2,39 @@ html{
     height: 100%;
 }
 
+#title, #subtitle{
+    margin:5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title{
+    text-decoration: underline;
+}
+
+#header{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    width: 100%;
+    align-items: center;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 5px 0;
+    box-sizing: border-box;
+}
+
+#buttons *{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#sizer{
+    margin-bottom: auto;
+}
+
 body{
     display: flex;
     flex-direction: column;
