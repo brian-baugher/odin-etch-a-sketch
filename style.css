@@ -25,6 +25,7 @@ html{
     height: 100%;
     padding: 5px 0;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 #buttons *{
@@ -32,7 +33,7 @@ html{
 }
 
 #sizer{
-    margin-bottom: auto;
+    /*margin-bottom: auto;*/
 }
 
 body{

@@ -15,6 +15,7 @@ sizer.addEventListener('click', ()=>{
     deleteGrid();
     renderGrid();
 })
+//TODO: create a cap on size
 
 /**
      * 
